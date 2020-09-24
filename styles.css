@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+.principal{
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    font-family: 'Handlee', cursive;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    font-size: 25px;
+    padding: 15px;
+}
+.bodyOfthePostcard{
+    font-size: 20px;
+    height:200px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.formula{
+    margin:10px;
+}
+input{
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    margin bottom: 30px;
+    padding bottom: 10px;
+}
+button{
+    font-family: 'Handlee', cursive;
+    font-size: 25px;
+    background-color: gray;
+    cursor: pointer;
+}
